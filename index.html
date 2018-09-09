@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap cheatsheet</title>
+
+  <!-- Bootstrap -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+<body>
+  <!--Typography-->
+  <div class="container">
+    <h1 class="page-header">Hello, world! <small>Secoundary Text</small></h1>
+    <p class="lead"><mark>Lorem ipsum dolor sit amet</mark>, consectetur adipisicing elit. Cupiditate cumque placeat nesciunt. Ut et ducimus voluptatum incidunt fugit odit temporibus explicabo iusto ab optio, error, alias vitae voluptate. Cum, molestias!</p>
+    <p>Lorem ipsum dolor sit amet,<del> consectetur adipisicing</del> elit. Cupiditate<u> cumque placeat</u> nesciunt. Ut et ducimus voluptatum incidunt fugit odit temporibus explicabo iusto ab optio, error, alias vitae voluptate. Cum, molestias!</p>
+
+    <hr>
+
+    <!--alignment & Transformation-->
+    <p class="text-left text-lowercase">Left aligned text</p>
+    <p class="text-center text-uppercase">Center aligned text</p>
+    <p class="text-right text-capitalized">right aligned text</p>
+    <p class="text-justify">Justified  text</p>
+    <p class="text-nowrap">No wrap text</p>
+    <!--quickfloats-->
+    <div class="pull-right">Dive Floated to right</div>
+    <div class="pull-left">Dive Floated to left</div>
+
+    <div class="clearfix"></div>
+
+    <hr>
+
+    <!--blockquote-->
+    <blockquote class="blockquote-reverse">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, aliquam!</p>
+      <footer>Quote by <cite title="Syed Hussain">Syed Hussain</cite></footer>
+    </blockquote>
+
+    <hr>
+
+    <!--List-->
+    <ul class="list-unstyled">
+      <li>Item one</li>
+      <li>Item two</li>
+      <li>Item three</li>
+      <li>Item Four</li>
+    </ul>
+    <ul class="list-inline">
+      <li>Item one</li>
+      <li>Item two</li>
+      <li>Item three</li>
+      <li>Item Four</li>
+    </ul>
+
+    <hr>
+    <!--Contextual colors-->
+    <p class="text-primary">Hello World</p>
+    <p class="text-success">Hello World</p>
+    <p class="text-info">Hello World</p>
+    <p class="text-warning">Hello World</p>
+    <p class="text-danger">Hello World</p>
+    <p class="text-muted">Hello World</p>
+    <!--background colors-->
+    <p class="bg-primary">Hello World</p>
+    <p class="bg-success">Hello World</p>
+    <p class="bg-info">Hello World</p>
+    <p class="bg-warning">Hello World</p>
+    <p class="bg-danger">Hello World</p>
+    <p class="bg-muted">Hello World</p>
+  </div>
+  <!--buttons-->
+  <div class="container">
+    <!--buttons-->
+    <button class="btn btn-default">Button</button>
+    <a href="#"class="btn btn-default" role="buttong">link</a>
+    <input type="submit"class="btn btn-default" value="submit">
+    <br>
+    <!--contextual buttons-->
+    <button class="btn btn-default">default</button>
+    <button class="btn btn-primary">Primary</button>
+    <button class="btn btn-Success">Success</button>
+    <button class="btn btn-info">info</button>
+    <button class="btn btn-warning">Warning</button>
+    <button class="btn btn-link">link</button>
+    <br>
+    <!--buttong sizes-->
+    <button class="btn btn-default btn-lg">default</button>
+    <button class="btn btn-default btn-sm" disabled="disabled">default</button>
+
+  </div>
+  <hr>
+  <!--forms-->
+  <div class="container">
+    <form>
+      <div class="form-group">
+        <label>Name</label>
+        <input type="text" class="form-control" placeholder="Add name">
+      </div>
+      <div class="form-group">
+        <label>Email</label>
+        <input type="email" class="form-control" placeholder="Add email">
+      </div>
+      <div class="form-group">
+        <label>Message</label>
+        <textarea class="text" class="form-control" placeholder="Add Message"></textarea>
+      </div>
+      <div class="form-control">
+        <option value="male">Male</option>
+    </form>
+  </div>
+
+  <div style="height:400px"></div>
+
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
